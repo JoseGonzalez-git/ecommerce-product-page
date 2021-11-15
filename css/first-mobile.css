@@ -1,6 +1,19 @@
-
-
 @media (max-width: 375px) {
+    .product-info{
+        padding: 20px;
+    }
+    .price{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    h2{
+        margin-right: 10px;
+    }
+    .price-discount{
+        display: flex;
+    }
     .navbar {
         display: block;
     }
