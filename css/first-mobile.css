@@ -1,0 +1,14 @@
+
+
+@media (max-width: 375px) {
+    .navbar {
+        display: block;
+    }
+    .image-product {
+        width: auto;
+        height: 300px;
+        background-image: url(../images/image-product-1.jpg);
+        background-repeat:no-repeat ;
+        background-size: cover;
+    }
+}
