@@ -48,6 +48,9 @@
     height: 450px;   
 }
 @media (max-width: 1024px) {
+    .product-recommendation h2{
+        text-align: center;
+    }
     .container{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -60,9 +63,7 @@
     
 }
 @media  (max-width: 768px) {
-    .product-recommendation h2{
-        text-align: center;
-    }
+
     .container{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
