@@ -1,12 +1,19 @@
-@media (min-width: 769px) and (max-width:1400px) {
+@media (min-width: 769px) {
+
+    .price-discount h2{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
     #container-product {
         display: flex;
-        padding: 35px;
+        max-width:900px;
+        margin: 4% auto;
     }
-    .container-product {
-        width: 100%;
-        margin: 30px;
-        padding: 0;
+
+    .product-info {
+        width: 80%;
+        margin: 0 auto;
     }
     .image-product {
         max-width: 500px;
@@ -32,6 +39,24 @@
     .menuppal a{
         color: var(--dark-grayish-blue);
         font-weight: 400;
+    }
+    #buy-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #buy-button {
+        width: 200px;
+        justify-content: space-between;
+    }
+    .quantity{
+        width: 200px;
+    }
+    .price{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
     }
 }
 
@@ -59,6 +84,7 @@
     .quantity{
         width: 200px;
     }
+
     #buy-container{
         display: flex;
         justify-content: space-around;
@@ -85,9 +111,6 @@
         align-items: center;
         justify-content: space-between;
         margin-bottom: 20px;
-    }
-    h2{
-        margin-right: 10px;
     }
     .price-discount{
         display: flex;
