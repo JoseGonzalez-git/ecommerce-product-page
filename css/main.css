@@ -80,9 +80,7 @@ p {
 li{
     list-style: none;
 }
-.logo{  
-    margin-left: 50px;
-}
+
 .image-product{
     background-image: url(../images/image-product-1.jpg);
     width: auto;
