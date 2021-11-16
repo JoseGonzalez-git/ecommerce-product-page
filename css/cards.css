@@ -84,7 +84,7 @@
     color: #fff;
 }
 
-.container .card .contentBx .size,
+.container .card .contentBx .Price,
 .container .card .contentBx .color {
     display: flex;
     justify-content: center;
@@ -95,7 +95,7 @@
     visibility: hidden;
 }
 
-.container .card:hover .contentBx .size {
+.container .card:hover .contentBx .Price {
     opacity: 1;
     visibility: visible;
     transition-delay: .5s;
@@ -107,7 +107,7 @@
     transition-delay: .6s;
 }
 
-.container .card .contentBx .size h3,
+.container .card .contentBx .Price h3,
 .container .card .contentBx .color h3 {
     color: white;
     font-weight: 300;
@@ -117,8 +117,8 @@
     margin-right: 10px;
 }
 
-.container .card .contentBx .size span {
-    width: 26px;
+.container .card .contentBx .Price span {
+    width: auto;
     height: 26px;
     text-align: center;
     line-height: 26px;
@@ -161,7 +161,6 @@
 .container .card .contentBx a {
     display: inline-block;
     padding: 10px 20px;
-    background: #fff;
     border-radius: 4px;
     margin-top: 10px;
     text-decoration: none;
