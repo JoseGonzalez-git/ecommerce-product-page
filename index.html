@@ -1,114 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="./css/navbar.css">
-  <link rel="stylesheet" href="./css/first-mobile.css">
-  
-  <title>Frontend Mentor | E-commerce product page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/product.css" /> 
+    <link rel="stylesheet" href="./css/landing.css" />
+    <link rel="stylesheet" href="./css/cards.css">
 
-</head>
+    <title>Frontend Mentor | E-commerce product page</title>
+  </head>
   <body>
-    
-    <header id= "container-header">
-
- 
-        <div class="nav-container">
-          <div class="hamburger">
-            <div class="_layer -top"></div>
-            <div class="_layer -mid"></div>
-            <div class="_layer -bottom"></div>
-          </div>
-          <div class="logo">
-            <img src="images/logo.svg" alt="logo">
-          </div>
-          <nav class="menuppal">
-              <ul>
-                <li><a href="#">Collections</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-            </nav>
+    <header id="container-header">
+      <div class="nav-container">
+        <div class="hamburger">
+          <div class="_layer -top"></div>
+          <div class="_layer -mid"></div>
+          <div class="_layer -bottom"></div>
         </div>
-          <div class="container-icons">
-    
-            <div id="buy">
-              <img src="images/icon-cart.svg" alt="Carrito">
-            </div>
-    
-            <div id="avatar">
-              <img src="images/image-avatar.png" alt="Avatar">
-            </div>
-          </div>
+        <div class="logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+        <nav class="menuppal">
+          <ul>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
 
-
+      <div id="login">
+        <button type="submit">Login</button>
+      </div>
     </header>
-
     <main>
-
-      <div id="container-product">
-        <div class="hero-container">
-          <div class="image-product">
-          </div>
-        </div>
-    
-      <div class="container-product">
-    
-        <div class="product-info">
-    
-          <h1>Sneaker Company</h1>
-          <h2>Fall Limited Edition Sneakers</h2>
-          <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
-            durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
-    
-          <div class="price">
-          
-            <div class="price-discount">
-              <h2>$125.00</h2>
-              <span class="discount">
-                50%
-              </span>
+        <div class="hero">
+            <div id="hero-landing"></div>
+            <div class="hero-container">
+                <h1>Welcome to Sneakers</h1>
+                <h2>! Now with Website !</h2>
+                <p>Therefore enjoy our discounts of up to 50%</p>
             </div>
-        
-            <h3>$250.000</h3>
-          </div>
-    
-          <div id="buy-container">
+        </div>
+        <div class="product-recommendation">
+            <h2>We suggest you</h2>
+            <div class="container">
+                    <div class="card card1">
+                        <div class="imgBx">
+                            <img src="http://pngimg.com/uploads/running_shoes/running_shoes_PNG5782.png" alt="nike-air-shoe">
+                        </div>
             
-            <div class="quantity">
-              <button>
-                <img src="images/icon-minus.svg" alt="">
-              </button>
-              <h4>0</h4>
-              <button>
-                <img src="images/icon-plus.svg" alt="">
+                        <div class="contentBx">
+            
+                            <h2>Nike Shoes</h2>
+            
+                            <div class="size">
+                                <h3>Size :</h3>
+                                <span>7</span>
+                                <span>8</span>
+                                <span>9</span>
+                                <span>10</span>
+                            </div>
+            
+                            <div class="color">
+            
+                                <h3>Color :</h3>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="card card2">
+                        <div class="imgBx">
+                            <img src="http://pngimg.com/uploads/running_shoes/running_shoes_PNG5782.png" alt="nike-air-shoe">
+                        </div>
+            
+                        <div class="contentBx">
+            
+                            <h2>Nike Shoes</h2>
+            
+                            <div class="size">
+                                <h3>Size :</h3>
+                                <span>7</span>
+                                <span>8</span>
+                                <span>9</span>
+                                <span>10</span>
+                            </div>
+            
+                            <div class="color">
+            
+                                <h3>Color :</h3>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="card card3">
+                        <div class="imgBx">
+                            <img src="http://pngimg.com/uploads/running_shoes/running_shoes_PNG5782.png" alt="nike-air-shoe">
+                        </div>
+            
+                        <div class="contentBx">
+            
+                            <h2>Nike Shoes</h2>
+            
+                            <div class="size">
+                                <h3>Size :</h3>
+                                <span>7</span>
+                                <span>8</span>
+                                <span>9</span>
+                                <span>10</span>
+                            </div>
+            
+                            <div class="color">
+            
+                                <h3>Color :</h3>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <a href="#">Buy Now</a>
+                        </div>
+                    </div>
             </div>
-      
-            <div id="buy-button">
-              <button > 
-                <img src="images/icon-cart.svg" alt="Carrito">
-                Add to cart
-              </button>
-            </div>
-          </div>
-    
         </div>
-      </div>
-      
     </main>
-    <footer>
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://github.com/JoseGonzalez-git/ecommerce-product-page" target="_blank">Jose Gonzalez</a>.
-      </div>
-    </footer>
+    <script src="./js/navbar.js"></script>
   </body>
-  
-  <script src="./js/navbar.js"></script>
-
 </html>

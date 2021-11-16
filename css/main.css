@@ -13,9 +13,6 @@ html {
   --black: hsl(0, 0%, 0%);
   position: relative;
 }
-body {
-  max-height: 100vh;
-}
 
 header {
   display: flex;
@@ -103,12 +100,17 @@ p {
 li {
   list-style: none;
 }
-
-.image-product {
-  background-image: url(../images/image-product-1.jpg);
+#hero-landing, .image-product {
   width: auto;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 50%;
+}
+#hero-landing{
+  background-image: url(../images/Hero.jpg);
+}
+.image-product {
+  background-image: url(../images/image-product-1.jpg);
 }
 
 .quantity button {
