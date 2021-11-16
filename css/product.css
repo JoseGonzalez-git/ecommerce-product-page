@@ -23,23 +23,8 @@
         border-radius: 10px;
         filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
     }
-    .nav-container{
-        display: flex;
-        align-items: center
-    }
-    .logo{  
-        margin-left: 0;
-    }
-    .menuppal ul{
-        display: flex;
-    }
-    .menuppal li{
-        margin-left: 10px;
-    }
-    .menuppal a{
-        color: var(--dark-grayish-blue);
-        font-weight: 400;
-    }
+
+    
     #buy-container{
         display: flex;
         justify-content: space-around;
@@ -67,9 +52,7 @@
         border-radius: 10px;
         filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
     }
-    .logo{  
-        margin-left: 50px;
-    }
+    
     .hero-container{
         display:flex;
         justify-content: center;
@@ -97,9 +80,6 @@
     
 }
 @media  (max-width: 500px) {
-    .logo{  
-        margin-left: 50px;
-    }
     .product-info{
         padding: 20px;
     }

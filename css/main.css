@@ -100,13 +100,14 @@ p {
 li {
   list-style: none;
 }
-#hero-landing, .image-product {
+#hero-landing,
+.image-product {
   width: auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
 }
-#hero-landing{
+#hero-landing {
   background-image: url(../images/Hero.jpg);
 }
 .image-product {
@@ -147,3 +148,4 @@ button {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+

@@ -93,5 +93,27 @@
         text-decoration: none;
         color: #333;
       }
+      .logo {
+        margin-left: 50px;
+      }
       
+}
+@media (min-width: 769px) {
+  .logo {
+    margin-left: 0;
+  }
+  .nav-container {
+    display: flex;
+    align-items: center;
+  }
+  .menuppal ul {
+    display: flex;
+  }
+  .menuppal li {
+    margin-left: 10px;
+  }
+  .menuppal a {
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
+  }
 }
