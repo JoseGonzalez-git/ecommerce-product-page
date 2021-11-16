@@ -1,5 +1,5 @@
 body{
-    background:var(--primary-orange);
+    background:hsl(26, 100%, 60%);
 }
 .form {
   width: 340px;
