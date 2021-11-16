@@ -25,9 +25,13 @@
     grid-template-areas:
       "card1 card2 card3"
       "card1 card2 card3";
-      justify-items: center
+    justify-items: start;
+      
   }
   .card{
+    max-width: 90%;
+  }
+  .card1{
     align-self: center;
     grid-area: card1;
   }
@@ -41,11 +45,17 @@
   .card3 {
     align-self: center;
     grid-area: card3;
+    
   }
 
 #hero-landing{
     width: 100%;
     height: 450px;   
+}
+@media (max-width: 1250px) {
+    .product-recommendation{
+        max-width: 1000px;
+    }
 }
 @media (max-width: 1024px) {
     .product-recommendation h2{
@@ -58,9 +68,9 @@
         "card1 card2"
         "card3 .";
         gap: 20px;
-
+        justify-items: center;
     }
-    
+   
 }
 @media  (max-width: 768px) {
 
@@ -72,7 +82,7 @@
         "card2"
         "card3";
         gap: 20px;
-
+        justify-items: center;
     }
     #hero-landing{
         height: 400px;
